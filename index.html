@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ElyScript - Gerador de Scripts VFS Global Angola</title>
+    <meta name="description" content="Gerador automático de scripts para VFS Global Angola. Crie scripts personalizados de forma rápida e fácil.">
+    <meta name="keywords" content="VFS Global, Angola, Scripts, Gerador, ElyScript">
+    <meta property="og:title" content="ElyScript - Gerador de Scripts VFS Global Angola">
+    <meta property="og:description" content="Gerador automático de scripts para VFS Global Angola">
+    <meta name="twitter:title" content="ElyScript - Gerador de Scripts VFS Global Angola">
+    <meta name="twitter:description" content="Gerador automático de scripts para VFS Global Angola">
+
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react@18/umd/react.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://resource.trickle.so/vendor_lib/unpkg/lucide-static@0.516.0/font/lucide.css" rel="stylesheet">
+
+    <!-- Predefined Tailwind CSS, use it as needed, or update base on your -->
+    <style type="text/tailwindcss">
+    @layer theme {
+        :root {
+            --primary: #dc2626;
+            --secondary: #059669;
+            --accent: #f59e0b;
+        }
+    }
+
+    @layer base {
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+        }
+    }
+
+    @layer components {
+        .btn-primary {
+            @apply bg-red-600 hover:bg-red-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200;
+        }
+        
+        .btn-secondary {
+            @apply bg-emerald-600 hover:bg-emerald-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200;
+        }
+        
+        .card {
+            @apply bg-white rounded-xl shadow-lg p-6 border border-gray-100;
+        }
+        
+        .loader {
+            @apply animate-spin rounded-full h-8 w-8 border-b-2 border-red-600;
+        }
+    }
+
+    @layer utilities {
+        .text-shadow {
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+    }
+    </style>
+
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel" src="components/Loader.js"></script>
+    <script type="text/babel" src="components/LoginForm.js"></script>
+    <script type="text/babel" src="components/Header.js"></script>
+    <script type="text/babel" src="components/HomePage.js"></script>
+    <script type="text/babel" src="components/ScriptGenerator.js"></script>
+    <script type="text/babel" src="components/Footer.js"></script>
+    <script type="text/babel" src="utils/scriptTemplates.js"></script>
+    <script type="text/babel" src="app.js"></script>
+</body>
+</html>
