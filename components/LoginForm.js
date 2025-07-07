@@ -89,10 +89,10 @@ function LoginForm({ onLogin }) {
           <div className="mt-6 p-4 bg-gray-50 rounded-lg">
             <h3 className="font-semibold text-gray-800 mb-2">Credenciais Demo:</h3>
             <p className="text-sm text-gray-600 mb-1">
-              <strong>E-mail:</strong> engjoaotavaresjose@gmail.com
+              <strong>  Email:</strong> Solicite ao Eng.João Tavares José
             </p>
             <p className="text-sm text-gray-600">
-              <strong>Palavra-passe:</strong> eng2025
+              <strong>Palavra-passe:</strong>Solicite ao Eng.João Tavares José
             </p>
           </div>
         </div>
