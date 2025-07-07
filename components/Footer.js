@@ -72,7 +72,7 @@ function Footer() {
                   <div className="w-8 h-8 bg-gray-700 rounded-lg flex items-center justify-center">
                     <div className="icon-mail text-red-400 text-sm"></div>
                   </div>
-                  <span>contato@elyscript.ao</span>
+                  <span>Solicite ao Eng. João Tavares José</span>
                 </div>
                 <div className="flex items-center space-x-3 hover:text-white transition-colors">
                   <div className="w-8 h-8 bg-gray-700 rounded-lg flex items-center justify-center">
